@@ -53,7 +53,7 @@ strong {
 em { font-style: italic; }
 
 img {
-  width: 100%;
+  width: auto;
   border: 0;
   vertical-align: middle;
 }
@@ -120,10 +120,128 @@ li {
   main styling starts here
 =================================*/
 
+main {
+  height: 100vh;
+}
 
+.veg-mayo {
+  height: 100%;
+}
 
+.funfoodes-container {
+  width: 35%;
+  height: 90%;
+  padding: 20px 0;
+  margin: 50px auto;
+  border: 2px solid #000;
+  position: relative;
+}
 
+.logo {
+  text-align: center;
+}
 
+.table {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+.table img {
+  width: 100%;
+}
+
+.plate {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  transform: translateX(-300px);
+}
+
+.happy-sonali,.sad-sonali,.chef {
+  position: absolute;
+  z-index: 3;
+  bottom: 14%;
+  right: 0;
+  transform: translateX(300px);
+}
+
+.boring-text,.sandwicheto-text,.funfoods-text,.foodmagic-text {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  text-align: center;
+  transform: translateX(-300px);
+}
+
+.boring-text span, .sandwicheto-text span, .funfoods-text span, .foodmagic-text span {
+  color: #ff0000;
+  font-size: 32px;
+}
+
+.sandwich1 {
+  position: absolute;
+  z-index: 4;
+  bottom: 0;
+  left: -13%;
+  transform: translateX(-300px);
+}
+
+.sandwich2 {
+  position: absolute;
+  z-index: 5;
+  bottom: 4%;
+  transform: translateX(-300px);
+}
+
+.sandwich3 {
+  position: absolute;
+  z-index: 6;
+  bottom: 8%;
+  transform: translateX(-300px);
+}
+
+.mayo {
+  position: absolute;
+  z-index: 8;
+  bottom: 8%;
+  transform: translateX(-300px);
+}
+
+.knife {
+  position: absolute;
+  z-index: 9;
+  bottom: 9%;
+  transform: translateX(-300px);
+}
+
+.mayo-bottle {
+  position: absolute;
+  z-index: 10;
+  bottom: 5%;
+  left: 30%;
+  transform: translateX(300px);
+}
+
+.hat {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translateX(-300px);
+}
+
+.recipe {
+  padding: 10px 15px;
+  border-radius: 8px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  background: #12346b;
+  color: #fff;
+  transform: translate(-300px, -100px);
+}
 
 
 
