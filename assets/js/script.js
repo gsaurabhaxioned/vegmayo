@@ -63,7 +63,7 @@ let promise = new Promise((resolve, reject) => {
         setTimeout(() => {
             sandwich3.style.bottom = "12%";
             knife.style.transform = "translateX(0)";
-            knife.style.left = "20%";
+            knife.style.left = "5%";
             mayo.style.transform = "translateX(0)";
             resolve();
         }, 2000)
@@ -82,7 +82,7 @@ let promise = new Promise((resolve, reject) => {
             mayo.style.zIndex = "0";
             sandwich3.style.bottom = "8%";
             resolve();
-        }, 50)
+        }, 400)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
@@ -133,7 +133,7 @@ let promise = new Promise((resolve, reject) => {
         setTimeout(() => {
             hat.style.transform = "translateX(0)";
             resolve();
-        }, 100)
+        }, 50)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
