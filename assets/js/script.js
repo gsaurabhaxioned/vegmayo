@@ -138,7 +138,7 @@ let promise = new Promise((resolve, reject) => {
 }).then(() => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            hat.style.top = "60%";
+            hat.style.top = "54%";
             resolve();
         }, 500)
     })
