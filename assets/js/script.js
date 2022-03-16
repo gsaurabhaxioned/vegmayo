@@ -32,14 +32,17 @@ setTimeout(() => {
             setTimeout(() => {
                 sandwich3.style.bottom = "12%";
                 knife.style.transform = "translateX(0)";
+                knife.style.left = "20%";
+                mayo.style.transform = "translateX(0)";
                 setTimeout(() => {
                     knife.style.left = "40%";
-                    mayo.style.transform = "translateX(0)";
+                   
                     setTimeout(() => {
                         knife.style.display = "none";
+                        mayo.style.zIndex = "0";
                         setTimeout(() => {
                             sandwich3.style.bottom = "8%";
-                            mayo.style.zIndex = "0";
+                           
                             setTimeout(() => {
                                 sandwicheto_text.style.transform = "translateX(0)";
                                 happy_sonali.style.transform = "translateX(0)";
@@ -65,8 +68,8 @@ setTimeout(() => {
                                                         hat.style.top = "60%";
                                                         setTimeout(() => {
                                                             recipe.style.transform = "translate(0)";
-                                                        }, 1500);
-                                                    }, 2000)
+                                                        }, 1000);
+                                                    }, 500)
                                                 }, 2000);
                                             }, 1000);
                                         }, 2000);
@@ -78,5 +81,5 @@ setTimeout(() => {
                 }, 1000);
             }, 2000);
         }, 2000);
-    }, 2000);
-}, 2000);
+    }, 500);
+}, 1000);
