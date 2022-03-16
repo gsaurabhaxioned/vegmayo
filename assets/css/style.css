@@ -130,7 +130,7 @@ main {
 
 .funfoodes-container {
   width: 325px;
-  height: 90%;
+  height: 80%;
   padding: 20px 0;
   margin: 50px auto;
   border: 2px solid #000;
@@ -231,7 +231,7 @@ button {
 
 .mayo {
   position: absolute;
-  z-index: 20;
+  z-index: 8;
   bottom: 8%;
   transform: translateX(-500px);
 }
@@ -239,7 +239,7 @@ button {
 .knife {
   position: absolute;
   z-index: 9;
-  bottom: 9%;
+  bottom: 6%;
   transform: translateX(-500px);
 }
 
@@ -260,14 +260,15 @@ button {
 }
 
 .recipe {
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 10px 24px;
+  border-radius: 12px;
   position: absolute;
   top: 40%;
-  left: 34%;
-  background: #12346b;
+  left: 27%;
+  background-color: #12346b;
   color: #fff;
   transform: translate(-500px, -100px);
+  font-size: 20px;
 }
 
 
