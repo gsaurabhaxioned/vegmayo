@@ -1,4 +1,4 @@
-let tab = document.querySelector('.table'),
+let table = document.querySelector('.table'),
     boring_text = document.querySelector('.boring-text'),
     sandwicheto_text = document.querySelector('.sandwicheto-text'),
     funfoods_text = document.querySelector('.funfoods-text'),
@@ -23,7 +23,7 @@ let promise = new Promise((resolve, reject) => {
         setTimeout(() => {
             table.style.opacity = "1";
             resolve();
-        }, 100)
+        }, 10)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
