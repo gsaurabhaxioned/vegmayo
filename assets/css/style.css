@@ -155,6 +155,11 @@ button {
   -ms-transition: all 0.8s ease-in-out;
 }
 
+button:hover {
+  background-color: #ffa500;
+  color: #000;
+}
+
 .knife,.mayo {
   transition: all 0.8s ease-in-out;
   -webkit-transition: all 0.8s ease-in-out;
