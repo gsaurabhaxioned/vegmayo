@@ -168,6 +168,14 @@ button:hover {
   -ms-transition: all 0.8s ease-in-out;
 }
 
+.hat {
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+}
+
 .logo {
   text-align: center;
 }
@@ -176,7 +184,7 @@ button:hover {
   width: 100%;
   position: absolute;
   z-index: 1;
-  bottom: 0;
+  bottom: -20px;
   opacity: 0.1;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -278,7 +286,7 @@ button:hover {
   left: 27%;
   background-color: #12346b;
   color: #fff;
-  transform: translate(-500px, -100px);
+  transform: translate(-500px, -300px);
   font-size: 20px;
 }
 
