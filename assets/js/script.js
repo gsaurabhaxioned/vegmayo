@@ -41,14 +41,35 @@ setTimeout(()=>{
                         sandwich3.style.bottom = "8%";
                         mayo.style.zIndex = "0";
                         setTimeout(()=>{
-                            sandwicheto_text.style.transform = "translate(0)";
+                            sandwicheto_text.style.transform = "translateX(0)";
                             happy_sonali.style.transform = "translateX(0)";
                             setTimeout(()=>{
-                                sandwicheto_text.style.transform = "translate(-300px)";
+                                sandwicheto_text.style.transform = "translateX(-300px)";
                                 happy_sonali.style.transform = "translateX(300px)";
                                 setTimeout(()=>{
-                                    funfoods_text.style.transform = "translate(0)";
-                                    chef.style.transform = "translate(0)";
+                                    funfoods_text.style.transform = "translateX(0)";
+                                    chef.style.transform = "translateX(0)";
+                                    setTimeout(()=>{
+                                        funfoods_text.style.transform = "translateX(-300px)";
+                                        chef.style.transform = "translateX(300px)";
+                                        sandwich1.style.transform = "translateX(-300px)";
+                                        sandwich2.style.transform = "translateX(-300px)";
+                                        sandwich3.style.transform = "translateX(-300px)";
+                                        mayo.style.transform = "translateX(-300px)";
+                                        setTimeout(()=>{
+                                            mayo_bottle.style.transform = "translateX(0)";
+                                            foodmagic_text.style.transform = "translateX(0)";
+                                            setTimeout(()=>{
+                                                hat.style.transform = "translateX(0)";
+                                                setTimeout(()=>{
+                                                    hat.style.top = "60%";
+                                                    setTimeout(()=>{
+                                                        recipe.style.transform = "translate(0)";
+                                                    },2000);
+                                                },2000)
+                                            },2000);
+                                        },1000);
+                                    },2000);
                                 },500);
                                 
                             },1000);
