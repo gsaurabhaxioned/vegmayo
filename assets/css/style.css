@@ -172,6 +172,12 @@ button {
   position: absolute;
   z-index: 1;
   bottom: 0;
+  opacity: 0.1;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -ms-transition: all 0.4s;
 }
 
 .table img {
