@@ -213,17 +213,17 @@ button:hover {
 }
 
 .boring-text,.sandwicheto-text,.funfoods-text,.foodmagic-text {
-  width: 50%;
+  width: 60%;
   position: absolute;
   top: 20%;
-  left: 25%;
+  left: 20%;
   text-align: center;
   transform: translateX(-500px);
 }
 
 .boring-text span, .sandwicheto-text span, .funfoods-text span, .foodmagic-text span {
   color: #ff0000;
-  font-size: 32px;
+  font-size: 35px;
 }
 
 .sandwich1 {
