@@ -140,40 +140,27 @@ main {
 }
 
 figure,div,button {
-  transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-}
-
-button {
-  transition: all 0.8s ease-in;
-  -webkit-transition: all 0.8s ease-in;
-  -moz-transition: all 0.8s ease-in;
-  -o-transition: all 0.8s ease-in;
-  -ms-transition: all 0.8s ease-in;
-}
-
-button:hover {
-  background-color: #ffa500;
-  color: #000;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
 }
 
 .knife,.mayo {
-  transition: all 0.8s ease-in;
-  -webkit-transition: all 0.8s ease-in;
-  -moz-transition: all 0.8s ease-in;
-  -o-transition: all 0.8s ease-in;
-  -ms-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
 }
 
 .hat {
-  transition: all 2s ease-in;
-  -webkit-transition: all 2s ease-in;
-  -moz-transition: all 2s ease-in;
-  -o-transition: all 2s ease-in;
-  -ms-transition: all 2s ease-in;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
 }
 
 .logo {
@@ -186,11 +173,11 @@ button:hover {
   z-index: 1;
   bottom: -20px;
   opacity: 0.1;
-  transition: all 0.4s ease-in;
-  -webkit-transition: all 0.4s ease-in;
-  -moz-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
-  -ms-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
 }
 
 .table img {
@@ -288,6 +275,16 @@ button:hover {
   color: #fff;
   transform: translate(-500px, -300px);
   font-size: 20px;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+}
+
+.recipe:hover {
+  background-color: #ffa500;
+  color: #000;
 }
 
 
