@@ -50,13 +50,19 @@ let promise = new Promise((resolve, reject) => {
 }).then(() => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            sad_sonali.style.transform = "translateX(500px)";
-            boring_text.style.transform = "translateX(-500px)";
             sandwich1.style.transform = "translateX(0)";
             sandwich2.style.transform = "translateX(0)";
             sandwich3.style.transform = "translateX(0)";
             resolve();
-        }, 400)
+        }, 800)
+    })
+}).then(() => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            sad_sonali.style.transform = "translateX(500px)";
+            boring_text.style.transform = "translateX(-500px)";
+            resolve();
+        }, 300)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
@@ -72,6 +78,7 @@ let promise = new Promise((resolve, reject) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             knife.style.left = "40%";
+            // knife.style.transform = "rotate(180deg)";
             resolve();
         }, 1000)
     })
