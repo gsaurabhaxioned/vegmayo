@@ -135,7 +135,8 @@ main {
   margin: 50px auto;
   border: 2px solid #000;
   position: relative;
-  /* overflow: hidden; */
+  background: no-repeat center/cover url("../butter_assets/bg.jpg");
+  overflow: hidden;
 }
 
 figure,div,button {
@@ -152,6 +153,14 @@ button {
   -moz-transition: all 0.1s;
   -o-transition: all 0.1s;
   -ms-transition: all 0.1s;
+}
+
+.knife,.mayo {
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
 }
 
 .logo {
@@ -222,7 +231,7 @@ button {
 
 .mayo {
   position: absolute;
-  z-index: 8;
+  z-index: 20;
   bottom: 8%;
   transform: translateX(-500px);
 }
