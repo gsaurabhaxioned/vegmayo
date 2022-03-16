@@ -78,7 +78,6 @@ let promise = new Promise((resolve, reject) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             knife.style.left = "40%";
-            // knife.style.transform = "rotate(180deg)";
             resolve();
         }, 1000)
     })
@@ -105,7 +104,7 @@ let promise = new Promise((resolve, reject) => {
             sandwicheto_text.style.transform = "translateX(-500px)";
             happy_sonali.style.transform = "translateX(500px)";
             resolve();
-        }, 2000)
+        }, 3000)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
@@ -125,7 +124,7 @@ let promise = new Promise((resolve, reject) => {
             sandwich3.style.transform = "translateX(-500px)";
             mayo.style.transform = "translateX(-500px)";
             resolve();
-        }, 2000)
+        }, 3000)
     })
 }).then(() => {
     return new Promise((resolve, reject) => {
